@@ -5,7 +5,8 @@ A short video recording of the project, imitate WeChat small video.
 Simple to use, you need to _#import “CRecordViewController.h”_ _first，and next：
 
 
-```CRecordViewController * vc = [CRecordViewController recordWithDuration:10
+```
+CRecordViewController * vc = [CRecordViewController recordWithDuration:10
                                                                      TargetSize:nil
                                                                   InerViewColor:nil
                                                                ProgressBarWidth:5
@@ -20,7 +21,8 @@ Simple to use, you need to _#import “CRecordViewController.h”_ _first，and 
 Or you can use the default style, just like this：
 
 
-```CRecordViewController * vc = [[CRecordViewController alloc]init];
+```
+CRecordViewController * vc = [[CRecordViewController alloc]init];
         [self presentViewController:vc animated:YES completion:nil];
 ```
 
