@@ -6,12 +6,12 @@ Simple to use, you need to _#import “CRecordViewController.h”_ _first，and 
 
 
 ```
-CRecordViewController * vc = [CRecordViewController recordWithDuration:10
-                                                                     TargetSize:nil
-                                                                  InerViewColor:nil
+       CRecordViewController * vc = [CRecordViewController recordWithDuration:10
+                                                                     TargetSize:AVAssetExportPreset960x540
+                                                                  InerViewColor:[UIColor colorWithWhite:0.5f alpha:1.0f]
                                                                ProgressBarWidth:5
-                                                              ProgressBackColor:[UIColor colorWithWhite:1.0 alpha:0.6]
-                                                                  ProgressColor:nil
+                                                              ProgressBackColor:[UIColor colorWithWhite:1.0f alpha:0.6f]
+                                                                  ProgressColor:[UIColor greenColor]
                                                                   LandscapeMode:NO];
         vc.finishBlock = ^(NSString * filePath){
             NSLog(@"upload!, path is ： %@",filePath);
@@ -22,7 +22,7 @@ Or you can use the default style, just like this：
 
 
 ```
-CRecordViewController * vc = [[CRecordViewController alloc]init];
+        CRecordViewController * vc = [[CRecordViewController alloc]init];
         [self presentViewController:vc animated:YES completion:nil];
 ```
 
