@@ -2,8 +2,9 @@
 A short video recording of the project, imitate WeChat small video.
 
 
-Simple to use, first,add the CShortVide folder to your project
-next，you need to _#import “CRecordViewController.h”_ ，and next：
+Simple to use, first,add the CShortVide folder to your project.
+
+ next，you need to _#import “CRecordViewController.h”_ ，and next：
 
 
 ```
