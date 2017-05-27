@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182EB0981EBDAA92008B7253 /* CRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182EB0971EBDAA92008B7253 /* CRecordViewController.m */; };
+		1869C7811EC155CD009AE4EA /* WechatShortVideo_scan_focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869C77C1EC155CD009AE4EA /* WechatShortVideo_scan_focus@2x.png */; };
+		1869C7821EC155CD009AE4EA /* WechatShortVideo_scan_focus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869C77D1EC155CD009AE4EA /* WechatShortVideo_scan_focus@3x.png */; };
+		1869C7831EC155CD009AE4EA /* 下箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869C77E1EC155CD009AE4EA /* 下箭头@3x.png */; };
+		1869C7841EC155CD009AE4EA /* 完成@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869C77F1EC155CD009AE4EA /* 完成@3x.png */; };
+		1869C7851EC155CD009AE4EA /* 重新拍摄@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869C7801EC155CD009AE4EA /* 重新拍摄@3x.png */; };
+		186EA3C91EC002DF000FA895 /* CRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EA3C81EC002DF000FA895 /* CRecordButton.m */; };
+		186EA3CC1EC05AB5000FA895 /* CRecordToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EA3CB1EC05AB5000FA895 /* CRecordToolView.m */; };
+		189EA6B51ED562FF00F2C084 /* flipCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 189EA6B41ED562FF00F2C084 /* flipCamera.png */; };
+		18A056241EBB28470074B130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A056231EBB28470074B130 /* main.m */; };
+		18A056271EBB28470074B130 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A056261EBB28470074B130 /* AppDelegate.m */; };
+		18A0562A1EBB28470074B130 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A056291EBB28470074B130 /* ViewController.m */; };
+		18A0562D1EBB28470074B130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A0562B1EBB28470074B130 /* Main.storyboard */; };
+		18A0562F1EBB28470074B130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A0562E1EBB28470074B130 /* Assets.xcassets */; };
+		18A056321EBB28470074B130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A056301EBB28470074B130 /* LaunchScreen.storyboard */; };
+		18A0563D1EBB28470074B130 /* videoRecordingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0563C1EBB28470074B130 /* videoRecordingDemoTests.m */; };
+		18A056481EBB28470074B130 /* videoRecordingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A056471EBB28470074B130 /* videoRecordingDemoUITests.m */; };
+		18A0565E1EBB2AB40074B130 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0565D1EBB2AB40074B130 /* AssetsLibrary.framework */; };
+		18A056601EBB2ABD0074B130 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0565F1EBB2ABD0074B130 /* AVKit.framework */; };
+		18D4CF161EC41373002DAE6A /* CPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CF151EC41373002DAE6A /* CPlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A056391EBB28470074B130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A056171EBB28470074B130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A0561E1EBB28470074B130;
+			remoteInfo = videoRecordingDemo;
+		};
+		18A056441EBB28470074B130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A056171EBB28470074B130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A0561E1EBB28470074B130;
+			remoteInfo = videoRecordingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182EB0961EBDAA92008B7253 /* CRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRecordViewController.h; sourceTree = "<group>"; };
+		182EB0971EBDAA92008B7253 /* CRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRecordViewController.m; sourceTree = "<group>"; };
+		182EB0991EBDAB30008B7253 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		182EB09B1EBDACDF008B7253 /* CHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHeader.h; sourceTree = "<group>"; };
+		1869C77C1EC155CD009AE4EA /* WechatShortVideo_scan_focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WechatShortVideo_scan_focus@2x.png"; sourceTree = "<group>"; };
+		1869C77D1EC155CD009AE4EA /* WechatShortVideo_scan_focus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WechatShortVideo_scan_focus@3x.png"; sourceTree = "<group>"; };
+		1869C77E1EC155CD009AE4EA /* 下箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下箭头@3x.png"; sourceTree = "<group>"; };
+		1869C77F1EC155CD009AE4EA /* 完成@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "完成@3x.png"; sourceTree = "<group>"; };
+		1869C7801EC155CD009AE4EA /* 重新拍摄@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重新拍摄@3x.png"; sourceTree = "<group>"; };
+		186EA3C71EC002DF000FA895 /* CRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRecordButton.h; sourceTree = "<group>"; };
+		186EA3C81EC002DF000FA895 /* CRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRecordButton.m; sourceTree = "<group>"; };
+		186EA3CA1EC05AB5000FA895 /* CRecordToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRecordToolView.h; sourceTree = "<group>"; };
+		186EA3CB1EC05AB5000FA895 /* CRecordToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRecordToolView.m; sourceTree = "<group>"; };
+		189EA6B41ED562FF00F2C084 /* flipCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipCamera.png; sourceTree = "<group>"; };
+		18A0561F1EBB28470074B130 /* videoRecordingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoRecordingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A056231EBB28470074B130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A056251EBB28470074B130 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A056261EBB28470074B130 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A056281EBB28470074B130 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A056291EBB28470074B130 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A0562C1EBB28470074B130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A0562E1EBB28470074B130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A056311EBB28470074B130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A056331EBB28470074B130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A056381EBB28470074B130 /* videoRecordingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoRecordingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A0563C1EBB28470074B130 /* videoRecordingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoRecordingDemoTests.m; sourceTree = "<group>"; };
+		18A0563E1EBB28470074B130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A056431EBB28470074B130 /* videoRecordingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoRecordingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A056471EBB28470074B130 /* videoRecordingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoRecordingDemoUITests.m; sourceTree = "<group>"; };
+		18A056491EBB28470074B130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A0565D1EBB2AB40074B130 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		18A0565F1EBB2ABD0074B130 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		18D4CF141EC41373002DAE6A /* CPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPlayerView.h; path = videoRecordingDemo/CShortVideo/CPlayerView.h; sourceTree = SOURCE_ROOT; };
+		18D4CF151EC41373002DAE6A /* CPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPlayerView.m; path = videoRecordingDemo/CShortVideo/CPlayerView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A0561C1EBB28470074B130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A056601EBB2ABD0074B130 /* AVKit.framework in Frameworks */,
+				18A0565E1EBB2AB40074B130 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A056351EBB28470074B130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A056401EBB28470074B130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182EB0951EBDAA46008B7253 /* CShortVideo */ = {
+			isa = PBXGroup;
+			children = (
+				1869C77B1EC155CD009AE4EA /* Resources */,
+				182EB09B1EBDACDF008B7253 /* CHeader.h */,
+				182EB0961EBDAA92008B7253 /* CRecordViewController.h */,
+				182EB0971EBDAA92008B7253 /* CRecordViewController.m */,
+				186EA3C71EC002DF000FA895 /* CRecordButton.h */,
+				186EA3C81EC002DF000FA895 /* CRecordButton.m */,
+				186EA3CA1EC05AB5000FA895 /* CRecordToolView.h */,
+				186EA3CB1EC05AB5000FA895 /* CRecordToolView.m */,
+				18D4CF141EC41373002DAE6A /* CPlayerView.h */,
+				18D4CF151EC41373002DAE6A /* CPlayerView.m */,
+			);
+			path = CShortVideo;
+			sourceTree = "<group>";
+		};
+		1869C77B1EC155CD009AE4EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				189EA6B41ED562FF00F2C084 /* flipCamera.png */,
+				1869C77C1EC155CD009AE4EA /* WechatShortVideo_scan_focus@2x.png */,
+				1869C77D1EC155CD009AE4EA /* WechatShortVideo_scan_focus@3x.png */,
+				1869C77E1EC155CD009AE4EA /* 下箭头@3x.png */,
+				1869C77F1EC155CD009AE4EA /* 完成@3x.png */,
+				1869C7801EC155CD009AE4EA /* 重新拍摄@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18A056161EBB28470074B130 = {
+			isa = PBXGroup;
+			children = (
+				18A056211EBB28470074B130 /* videoRecordingDemo */,
+				18A0563B1EBB28470074B130 /* videoRecordingDemoTests */,
+				18A056461EBB28470074B130 /* videoRecordingDemoUITests */,
+				18A056201EBB28470074B130 /* Products */,
+				18A0565C1EBB2AB40074B130 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18A056201EBB28470074B130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A0561F1EBB28470074B130 /* videoRecordingDemo.app */,
+				18A056381EBB28470074B130 /* videoRecordingDemoTests.xctest */,
+				18A056431EBB28470074B130 /* videoRecordingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A056211EBB28470074B130 /* videoRecordingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				182EB0951EBDAA46008B7253 /* CShortVideo */,
+				18A056251EBB28470074B130 /* AppDelegate.h */,
+				18A056261EBB28470074B130 /* AppDelegate.m */,
+				18A056281EBB28470074B130 /* ViewController.h */,
+				18A056291EBB28470074B130 /* ViewController.m */,
+				18A0562B1EBB28470074B130 /* Main.storyboard */,
+				18A0562E1EBB28470074B130 /* Assets.xcassets */,
+				18A056301EBB28470074B130 /* LaunchScreen.storyboard */,
+				18A056331EBB28470074B130 /* Info.plist */,
+				18A056221EBB28470074B130 /* Supporting Files */,
+			);
+			path = videoRecordingDemo;
+			sourceTree = "<group>";
+		};
+		18A056221EBB28470074B130 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A056231EBB28470074B130 /* main.m */,
+				182EB0991EBDAB30008B7253 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A0563B1EBB28470074B130 /* videoRecordingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A0563C1EBB28470074B130 /* videoRecordingDemoTests.m */,
+				18A0563E1EBB28470074B130 /* Info.plist */,
+			);
+			path = videoRecordingDemoTests;
+			sourceTree = "<group>";
+		};
+		18A056461EBB28470074B130 /* videoRecordingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A056471EBB28470074B130 /* videoRecordingDemoUITests.m */,
+				18A056491EBB28470074B130 /* Info.plist */,
+			);
+			path = videoRecordingDemoUITests;
+			sourceTree = "<group>";
+		};
+		18A0565C1EBB2AB40074B130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18A0565F1EBB2ABD0074B130 /* AVKit.framework */,
+				18A0565D1EBB2AB40074B130 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A0561E1EBB28470074B130 /* videoRecordingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A0564C1EBB28470074B130 /* Build configuration list for PBXNativeTarget "videoRecordingDemo" */;
+			buildPhases = (
+				18A0561B1EBB28470074B130 /* Sources */,
+				18A0561C1EBB28470074B130 /* Frameworks */,
+				18A0561D1EBB28470074B130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = videoRecordingDemo;
+			productName = videoRecordingDemo;
+			productReference = 18A0561F1EBB28470074B130 /* videoRecordingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A056371EBB28470074B130 /* videoRecordingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A0564F1EBB28470074B130 /* Build configuration list for PBXNativeTarget "videoRecordingDemoTests" */;
+			buildPhases = (
+				18A056341EBB28470074B130 /* Sources */,
+				18A056351EBB28470074B130 /* Frameworks */,
+				18A056361EBB28470074B130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A0563A1EBB28470074B130 /* PBXTargetDependency */,
+			);
+			name = videoRecordingDemoTests;
+			productName = videoRecordingDemoTests;
+			productReference = 18A056381EBB28470074B130 /* videoRecordingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A056421EBB28470074B130 /* videoRecordingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A056521EBB28470074B130 /* Build configuration list for PBXNativeTarget "videoRecordingDemoUITests" */;
+			buildPhases = (
+				18A0563F1EBB28470074B130 /* Sources */,
+				18A056401EBB28470074B130 /* Frameworks */,
+				18A056411EBB28470074B130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A056451EBB28470074B130 /* PBXTargetDependency */,
+			);
+			name = videoRecordingDemoUITests;
+			productName = videoRecordingDemoUITests;
+			productReference = 18A056431EBB28470074B130 /* videoRecordingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A056171EBB28470074B130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = qibo;
+				TargetAttributes = {
+					18A0561E1EBB28470074B130 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KH94F28VMD;
+						ProvisioningStyle = Automatic;
+					};
+					18A056371EBB28470074B130 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XTLFRC9P67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A0561E1EBB28470074B130;
+					};
+					18A056421EBB28470074B130 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XTLFRC9P67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A0561E1EBB28470074B130;
+					};
+				};
+			};
+			buildConfigurationList = 18A0561A1EBB28470074B130 /* Build configuration list for PBXProject "videoRecordingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A056161EBB28470074B130;
+			productRefGroup = 18A056201EBB28470074B130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A0561E1EBB28470074B130 /* videoRecordingDemo */,
+				18A056371EBB28470074B130 /* videoRecordingDemoTests */,
+				18A056421EBB28470074B130 /* videoRecordingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A0561D1EBB28470074B130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A056321EBB28470074B130 /* LaunchScreen.storyboard in Resources */,
+				1869C7811EC155CD009AE4EA /* WechatShortVideo_scan_focus@2x.png in Resources */,
+				1869C7821EC155CD009AE4EA /* WechatShortVideo_scan_focus@3x.png in Resources */,
+				18A0562F1EBB28470074B130 /* Assets.xcassets in Resources */,
+				1869C7841EC155CD009AE4EA /* 完成@3x.png in Resources */,
+				1869C7831EC155CD009AE4EA /* 下箭头@3x.png in Resources */,
+				18A0562D1EBB28470074B130 /* Main.storyboard in Resources */,
+				1869C7851EC155CD009AE4EA /* 重新拍摄@3x.png in Resources */,
+				189EA6B51ED562FF00F2C084 /* flipCamera.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A056361EBB28470074B130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A056411EBB28470074B130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A0561B1EBB28470074B130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0562A1EBB28470074B130 /* ViewController.m in Sources */,
+				186EA3C91EC002DF000FA895 /* CRecordButton.m in Sources */,
+				18D4CF161EC41373002DAE6A /* CPlayerView.m in Sources */,
+				182EB0981EBDAA92008B7253 /* CRecordViewController.m in Sources */,
+				18A056271EBB28470074B130 /* AppDelegate.m in Sources */,
+				18A056241EBB28470074B130 /* main.m in Sources */,
+				186EA3CC1EC05AB5000FA895 /* CRecordToolView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A056341EBB28470074B130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0563D1EBB28470074B130 /* videoRecordingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A0563F1EBB28470074B130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A056481EBB28470074B130 /* videoRecordingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A0563A1EBB28470074B130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A0561E1EBB28470074B130 /* videoRecordingDemo */;
+			targetProxy = 18A056391EBB28470074B130 /* PBXContainerItemProxy */;
+		};
+		18A056451EBB28470074B130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A0561E1EBB28470074B130 /* videoRecordingDemo */;
+			targetProxy = 18A056441EBB28470074B130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A0562B1EBB28470074B130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A0562C1EBB28470074B130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A056301EBB28470074B130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A056311EBB28470074B130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A0564A1EBB28470074B130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A0564B1EBB28470074B130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A0564D1EBB28470074B130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KH94F28VMD;
+				GCC_PREFIX_HEADER = videoRecordingDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = videoRecordingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.weifenxiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A0564E1EBB28470074B130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KH94F28VMD;
+				GCC_PREFIX_HEADER = videoRecordingDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = videoRecordingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.weifenxiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A056501EBB28470074B130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XTLFRC9P67;
+				INFOPLIST_FILE = videoRecordingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.videoRecordingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videoRecordingDemo.app/videoRecordingDemo";
+			};
+			name = Debug;
+		};
+		18A056511EBB28470074B130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XTLFRC9P67;
+				INFOPLIST_FILE = videoRecordingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.videoRecordingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videoRecordingDemo.app/videoRecordingDemo";
+			};
+			name = Release;
+		};
+		18A056531EBB28470074B130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XTLFRC9P67;
+				INFOPLIST_FILE = videoRecordingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.videoRecordingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = videoRecordingDemo;
+			};
+			name = Debug;
+		};
+		18A056541EBB28470074B130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XTLFRC9P67;
+				INFOPLIST_FILE = videoRecordingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.videoRecordingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = videoRecordingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A0561A1EBB28470074B130 /* Build configuration list for PBXProject "videoRecordingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A0564A1EBB28470074B130 /* Debug */,
+				18A0564B1EBB28470074B130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A0564C1EBB28470074B130 /* Build configuration list for PBXNativeTarget "videoRecordingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A0564D1EBB28470074B130 /* Debug */,
+				18A0564E1EBB28470074B130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A0564F1EBB28470074B130 /* Build configuration list for PBXNativeTarget "videoRecordingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A056501EBB28470074B130 /* Debug */,
+				18A056511EBB28470074B130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A056521EBB28470074B130 /* Build configuration list for PBXNativeTarget "videoRecordingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A056531EBB28470074B130 /* Debug */,
+				18A056541EBB28470074B130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A056171EBB28470074B130 /* Project object */;
+}

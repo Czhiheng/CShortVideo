@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  videoRecordingDemo
+//
+//  Created by apple on 2017/5/6.
+//  Copyright © 2017年 . All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "CHeader.h"
+
+#endif /* PrefixHeader_pch */
